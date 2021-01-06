@@ -1,13 +1,10 @@
-===============================
-TSGNet
-===============================
+# TSGNet
 
 This is a Pytorch implementation of TSGNet (Temporal-Static-Graph-Net), as described in our paper:
 
 Hogun Park, Jennifer Neville, [Exploiting Interaction Links for Node Classification with Deep Graph Neural Networks](https://www.ijcai.org/Proceedings/2019/0447.pdf)  (IJCAI 2019)
 
-Usage
------
+## Usage
 
 **Example Usage**
     ``$main.py --dataname "imdb"``
@@ -17,20 +14,19 @@ Usage
     The full list of command line options is available with ``$main.py --help``
 
 
-Requirements
-------------
+## Requirements
+
 We are tested in the following environment, but it may work in their previous versions.
 * Python 3
 # Pytorch 1.7
 * Python Geometric
 
 
+## Cite
 
-
-Citing
-------
 If you find TSGNet useful in your research, we ask that you cite the following paper::
 
+```
 @inproceedings{parkneville2019,
   title     = {Exploiting Interaction Links for Node Classification with Deep Graph Neural Networks},
   author    = {Park, Hogun and Neville, Jennifer},
@@ -43,10 +39,9 @@ If you find TSGNet useful in your research, we ask that you cite the following p
   doi       = {10.24963/ijcai.2019/447},
   url       = {https://doi.org/10.24963/ijcai.2019/447},
 }
+```
 
-
-Misc
-----
+## Misc
 
 Datasets and Implementation of layers are following interfaces of [Pytorch geometric](https://pytorch-geometric.readthedocs.io/en/latest/index.html#).
 
