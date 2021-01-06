@@ -17,9 +17,9 @@ Hogun Park, Jennifer Neville, [Exploiting Interaction Links for Node Classificat
 ## Requirements
 
 We are tested in the following environment, but it may work in their previous versions.
-* Python 3
-# Pytorch 1.7
-* Python Geometric
+* Python 3.6
+* Pytorch 1.7.0
+* Python Geometric 1.6.3
 
 
 ## Cite
