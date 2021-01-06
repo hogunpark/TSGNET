@@ -11,12 +11,12 @@ Hogun Park, Jennifer Neville, [Exploiting Interaction Links for Node Classificat
 
 
 **Full Command List**
-    The full list of command line options is available with ``$main.py --help``
+    The full list of command-line options is available with ``$main.py --help``
 
 
 ## Requirements
 
-We are tested in the following environment, but it may work in their previous versions.
+We tested the codes in the following environment, but it may work in their previous versions.
 * Python 3.6
 * Pytorch 1.7.0
 * Python Geometric 1.6.3
